@@ -1,3 +1,4 @@
+![image](https://telegra.ph/file/762447bfdb73f7bd20b9d.jpg)
 
 # telegram-manga-bot
 
