@@ -3,9 +3,9 @@ import telebot
 import random
 
 # Utiliser la variable d'environnement pour le token
-TOKEN ="6786499988:AAEeq0a0VJYWUepDnWwQu1wS8zwngiNzSO0"
+TOKEN =os.eviron.get('6786499988:AAEeq0a0VJYWUepDnWwQu1wS8zwngiNzSO0')
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(6786499988:AAEeq0a0VJYWUepDnWwQu1wS8zwngiNzSO0)
 
 manga_recommendations = [
     "One Piece", "Naruto", "Attack on Titan", "Death Note", "My Hero Academia",
