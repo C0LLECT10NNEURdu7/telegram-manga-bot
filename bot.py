@@ -1,6 +1,7 @@
 import os
 import telebot
 import random
+from keep_alive import keep_alive
 
 # Utiliser la variable d'environnement pour le token
 TOKEN =os.environ.get('6786499988:AAESOKvkf5rzg0VBshv60ZyJUjKllO5P6kI')
@@ -35,6 +36,7 @@ def send_fact(message):
     bot.reply_to(message, f"Saviez-vous que : {fact}")
 
 if __name__ == "__main__":
+    keep_alive()
     print("Le bot démarre...")
     bot.polling()
     print("Le bot s'est arrêté.")
