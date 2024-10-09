@@ -3,7 +3,6 @@ import telebot
 import random
 from keep_alive import keep_alive
 
-# Utiliser la variable d'environnement pour le token
 TOKEN =os.environ.get('6786499988:AAESOKvkf5rzg0VBshv60ZyJUjKllO5P6kI')
 
 bot = telebot.TeleBot(TOKEN)
